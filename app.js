@@ -1,4 +1,4 @@
-const { question, getRawInput } = require('readline-sync');
+const { question } = require('readline-sync');
 
 function start() {
     let mat = Array(8).fill().map(() => Array(8).fill(" "));
